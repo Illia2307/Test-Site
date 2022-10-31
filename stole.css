@@ -1,0 +1,90 @@
+body {
+    background: url(fone.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#name {
+    color: lawngreen;
+}
+div{
+    margin: 0 260px;
+    color: bisque;;
+    background-color: rgb(10,10,10,0.5);
+    width: 930px;
+}
+.text{
+    position: relative;
+    display: inline-block;
+}
+nav {
+    text-align: center;
+    margin: 25px auto 0;
+    position: relative;
+    width: 700px;
+    height: 50px;
+    border-radius: 50%;
+  
+
+}
+nav a {
+    line-height: 50px;
+    height: 100%;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+      color: #000
+}
+nav .animation{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    transition: all .5s ease 0s;
+    border-radius: 30px;
+
+}
+a:nth-child(1) {
+    width: 90px;
+}
+a:nth-child(2) {
+    width: 100px;
+}
+a:nth-child(3) {
+    width: 130px;
+}
+a:nth-child(4) {
+    width: 130px;
+}
+a:nth-child(5) {
+    width: 100px;
+}
+nav .start-home, a:nth-child(1):hover ~ .animation {
+    width: 120px;
+    left: -220px;
+    background-color: lightskyblue;
+}
+nav .start-home, a:nth-child(2):hover ~ .animation {
+    width: 120px;
+    left: -118px;
+    background-color: #1abc9c;
+}
+nav .start-home, a:nth-child(3):hover ~ .animation {
+    width: 120px;
+    left: 10px;
+    background-color: lightcoral
+}
+nav .start-home, a:nth-child(4):hover ~ .animation {
+    width: 120px;
+    left: 150px;
+    background-color: #1abc9c;
+}
+nav .start-home, a:nth-child(5):hover ~ .animation {
+    width: 100px;
+    left: 280px;
+    background-color: #1abc9c;
+}

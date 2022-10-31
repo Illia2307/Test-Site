@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+#name{
+    color: lightskyblue;
+}
+.title h1 span{
+    color: lightskyblue;
+}
+.title h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color:white
+}
+.list_menu a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: aliceblue;
+    border-left: 3px solid lightskyblue;;
+    padding-left: 5px;
+    transition: all 0.2s ease;
+}
+.list_menu a:hover{
+    border-left: 5px solid lightskyblue;;
+    padding-left: 10px;
+    transition: all 0.2s ease;
+}
+.list_menu li{
+    margin: 40px 0;
+}
+.list_menu{
+    margin-bottom: 50px;
+}
+
+.menu{
+    padding: 30vh 70px;
+    position: fixed;
+    background: rgb(20, 20, 20, 0.5);
+    height: 100vh;
+    backdrop-filter: blur(10px);
+    border-right: 10px solid white;
+    left: -356px;
+}
+.menu:hover{
+    left: 0;
+    transition: all 0.5s ease;
+}
+.footer_menu{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: aliceblue;
+    
+}
+body{
+    background: url(art.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.image{
+    text-align: center;
+    margin: 100px;
+    border-radius: 50%;
+    
+}
+h3{
+    color: azure;
+}
+
+
+
+
